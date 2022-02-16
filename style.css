@@ -30,14 +30,14 @@ ul{
     list-style-type: none;
     padding-left: 5px;
 }
-ul li a{
+ul li .a_nav{
     text-decoration: none;
     color: #818488;
     font-size: 15px;
     font-weight: 300;
 }
 
-a:hover{
+li .a_nav:hover{
     color: #1e90ff;
 }
 /* MAIN */
@@ -52,4 +52,11 @@ a:hover{
 p.risp{
     margin-top: 20px;
     font-size: 15px;
+}
+a{
+    color: #1e90ff;
+    text-decoration: none;
+}
+a i{
+    font-size:12px;
 }
