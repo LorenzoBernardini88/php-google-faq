@@ -87,7 +87,7 @@
                             $parag=explode('*', $valore['risposta']);
                             echo '<h2>'.$valore['domanda'].'</h2>';
                         foreach($parag as $element){
-                            echo '<p>'.$element.'</p>';
+                            echo '<p class="risp">'.$element.'</p>';
                         }
                     }
                 ?>
