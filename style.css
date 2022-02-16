@@ -16,29 +16,34 @@ header{
     display: flex;
     align-items: center;
     font-weight: 300;
+    font-size: 25px;
     padding: 5px 5px 0 5px;
     gap: 10px;
 }
 .top_head img{
-    width: 60px;
+    width: 100px;
+}
+nav{
+    border-bottom: 1px solid #818488;
 }
 ul{
     display: flex;
     align-items: center;
     gap: 20px;
-    border-bottom: 1px solid #818488;
     list-style-type: none;
     padding-left: 5px;
 }
 ul li .a_nav{
+    display: inline-block;
+    height: 30px;
     text-decoration: none;
     color: #818488;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
-
 li .a_nav:hover{
     color: #1e90ff;
+    border-bottom: #1e90ff 2px solid;
 }
 /* MAIN */
 .container{
