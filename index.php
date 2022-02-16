@@ -84,9 +84,9 @@
         <div class="container">
                 <?php
                     foreach($googleData as $key => $valore){
-                            explode('*', $valore['risposta']);
+                            $parag=explode('*', $valore['risposta']);
                             echo '<h2>'.$valore['domanda'].'</h2>';
-                        foreach($valore['risposta'] as $element){
+                        foreach($parag as $element){
                             echo '<p>'.$element.'</p>';
                         }
                     }
