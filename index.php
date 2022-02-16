@@ -85,10 +85,11 @@
                 <?php
                     foreach($googleData as $key => $valore){
                             $parag=explode('*', $valore['risposta']);
-                            echo '<h2>'.$valore['domanda'].'</h2>';
+                            echo '<div class="testo"> <h2>'.$valore['domanda'].'</h2>';
                         foreach($parag as $element){
                             echo '<p class="risp">'.$element.'</p>';
                         }
+                        echo '</div>';
                     }
                 ?>
         </div>
@@ -96,12 +97,3 @@
 </body>
 </html>
 
-
-
-
-
-
-
-                
-                    
-                

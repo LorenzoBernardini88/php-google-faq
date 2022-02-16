@@ -46,13 +46,10 @@ a:hover{
     margin: 0 auto;
     padding: 30px 0;
 }
-/* .testo{
-    margin-top: 30px;
-} */
+.testo{
+    margin-bottom: 40px;
+}
 p.risp{
     margin-top: 20px;
     font-size: 15px;
-}
-h2{
-    margin-top: 40px;
 }
